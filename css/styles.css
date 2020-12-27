@@ -1,0 +1,86 @@
+body {
+  background-color: #489cc1;
+}
+
+.root__container {
+  background-color: white;
+  max-width: 380px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.root__heading {
+  text-transform: uppercase;
+}
+
+.root__enter {
+  display: flex;
+  justify-content: space-between;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.root__input {
+  min-width: 300px;
+  padding: 5px;
+  text-align: center;
+}
+
+.root__add {
+  background-color: #489cc1;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.root__checkbox {
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+.root__text--through {
+  text-decoration: line-through;
+}
+
+.root__item {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+  max-width: 400px;
+}
+
+.root__left {
+  display: flex;
+}
+
+.root__pencil {
+  cursor: pointer;
+}
+
+.root__delete {
+  cursor: pointer;
+}
+
+.root__bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-top: 20px;
+}
+
+.root__progress {
+  padding: 10px;
+  min-width: 150px;
+  border: 2px solid black;
+  display: none;
+
+  background-image: url(../bg.png);
+  background-size: 0% 100%;
+  background-repeat: no-repeat;
+}
+
+.root__removedChecked {
+  display: none;
+  cursor: pointer;
+}
